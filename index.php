@@ -2,7 +2,7 @@
 define("ROOTPATH", dirname(__FILE__));
 
 define("APPPATH", ROOTPATH."/app/");
-
+//HoàngX upload
 // Check if SSL enabled.
 $ssl = isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] && $_SERVER["HTTPS"] != "off" 
      ? true 
